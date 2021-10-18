@@ -11,7 +11,7 @@ prompt.get(['number'], function (err, result) {
     console.log('Została wpisana wartość :');
     console.log('number: ' + result.number);
 
-    if(result.number == randomNumber ){s
+    if(result.number == randomNumber ){
         console.log("Udało się.");
     }else{
         console.log("Sprobuj ponownie.")
