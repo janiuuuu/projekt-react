@@ -5,7 +5,7 @@ console.log('Wpisany rok to ' + YEAR);
 var result = false;
 
 if(YEAR % 4 == 0 && YEAR % 100 != 0 && YEAR % 400 != 0){
-    console.log("Rok przystepny");
+    console.log("Rok przystępny");
 }else{
-    console.log("Rok nie przystepny");
+    console.log("Rok nie przystępny");
 }
