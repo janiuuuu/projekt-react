@@ -9,8 +9,11 @@ const rl = readline.createInterface({
     output: process.stdout
   });
 
-  rl.question('What do you think of Node.js? ', (answer) => {
-    // TODO: Log the answer in a database
-    console.log(`Thank you for your valuable feedback: ${answer}`);
+  rl.question('Wpisz liczbę : ', (answer) => {
+    if(answer == randomNumber ){
+        console.log("Udało się.");
+    }else{
+        console.log("Sprobuj ponownie.")
+    }
     rl.close();
   });
