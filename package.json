@@ -1,0 +1,25 @@
+{
+  "name": "zadanie_3",
+  "version": "1.0.0",
+  "description": "tesy",
+  "main": "time.js",
+  "scripts": {
+    "now": "node time.js",
+    "now2": "node times_2.js",
+    "now3": "node times_3.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "test"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "jan",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "date-fns": "^2.25.0",
+    "is-odd": "^3.0.1",
+    "moment": "^2.29.1"
+  }
+}
