@@ -1,11 +1,9 @@
 const YEAR = 2017;
 
-console.log('Wpisany rok to ' + YEAR);
+console.log(`Wpisany rok to ${YEAR}`);
 
-var result = false;
-
-if(YEAR % 4 == 0 && YEAR % 100 != 0 && YEAR % 400 != 0){
+if (YEAR % 4 == 0 && YEAR % 100 != 0 && YEAR % 400 != 0){
     console.log("Rok przystępny");
-}else{
+} else {
     console.log("Rok nie przystępny");
 }
