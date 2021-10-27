@@ -18,8 +18,8 @@
   "author": "jan",
   "license": "UNLICENSED",
   "dependencies": {
-    "date-fns": "^2.25.0",
-    "is-odd": "^3.0.1",
-    "moment": "^2.29.1"
+    "date-fns": "2.25.0",
+    "is-odd": "3.0.1",
+    "moment": "2.29.1"
   }
 }
